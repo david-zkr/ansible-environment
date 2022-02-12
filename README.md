@@ -1,1 +1,1 @@
-# config
+# rhel8-config
