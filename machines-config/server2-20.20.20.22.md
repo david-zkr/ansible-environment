@@ -1,6 +1,6 @@
 # SERVER2
 
-> 20.20.20.4
+> 20.20.20.22
 > 
 > server2.lab.example.com
 ## Repository
@@ -35,7 +35,7 @@ gpgcheck=0
 
 ````bash
 nmcli connection down "enp0s3"
-nmcli connection modify "enp0s3" ipv4.method manual ipv4.addresses 20.20.20.4/24 ipv4.dns 1.1.1.1 +ipv4.dns 1.0.0.1 connection.autoconnect yes
+nmcli connection modify "enp0s3" ipv4.method manual ipv4.addresses 20.20.20.22/24 ipv4.dns 1.1.1.1 +ipv4.dns 1.0.0.1 connection.autoconnect yes
 nmcli connection up "enp0s3"
 ````
 
@@ -47,9 +47,9 @@ nmcli connection up "enp0s3"
 ::1         localhost localhost.localdomain localhost6 localhost6.localdomain6
 #Ansible machines
 20.20.20.254    workstation.lab.example.com    workstation
-20.20.20.2      server0.lab.example.com        server0
-20.20.20.3      server1.lab.example.com        server1
-20.20.20.4      server2.lab.example.com        server2
-20.20.20.5      server3.lab.example.com        server3
-20.20.20.6      server4.lab.example.com        server4
+20.20.20.20     server0.lab.example.com        server0
+20.20.20.21     server1.lab.example.com        server1
+20.20.20.22     server2.lab.example.com        server2
+20.20.20.23     server3.lab.example.com        server3
+20.20.20.24     server4.lab.example.com        server4
 ````
