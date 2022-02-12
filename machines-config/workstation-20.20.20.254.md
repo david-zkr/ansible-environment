@@ -49,12 +49,37 @@ sudo yum install kernel-devel elfutils-libelf-devel
 
 #### Network interface configuration
 
+> Interface enp0s3 (NAT, DHCP, default interface)
 ````bash
-nmcli connection down "enp0s3"
+nmcli connection down enp0s3
 
-nmcli connection modify "enp0s3" ipv4.method manual ipv4.addresses 20.20.20.254/24 ipv4.dns 1.1.1.1 +ipv4.dns 1.0.0.1 connection.autoconnect yes
+nmcli connection modify "enp0s3" ipv4.method auto connection.autoconnect yes
 
-nmcli connection up "enp0s3"
+nmcli connection up enp0s3
+
+ip a
+````
+
+> Interface enp0s8 (INTERNAL NET, STATIC, added interface)
+
+````bash
+cd /etc/sysconfig/network-scripts
+
+cp ifcfg-enp0s3 ifcfg-enp0s8
+
+vim ifcfg-enp0s8
+
+**HERE YOU HAVE CHANGE NAME AND UUID BY GENERATING A NEW ONE**
+
+uuidgen
+````
+
+````bash
+nmcli connection down enp0s8
+
+nmcli connection modify enp0s8 ipv4.method manual ipv4.addresses 20.20.20.254/24 ipv4.dns 1.1.1.1 +ipv4.dns 1.0.0.1 connection.autoconnect yes
+
+nmcli connection up enp0s8
 
 ip a
 ````
