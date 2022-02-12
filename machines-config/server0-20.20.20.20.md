@@ -1,6 +1,6 @@
 # SERVER0
 
-> 20.20.20.2
+> 20.20.20.20
 > 
 > server0.lab.example.com
 ## Repository
@@ -37,7 +37,7 @@ gpgcheck=0
 
 ````bash
 nmcli connection down "enp0s3"
-nmcli connection modify "enp0s3" ipv4.method manual ipv4.addresses 20.20.20.2/24 ipv4.dns 1.1.1.1 +ipv4.dns 1.0.0.1 connection.autoconnect yes
+nmcli connection modify "enp0s3" ipv4.method manual ipv4.addresses 20.20.20.20/24 ipv4.dns 1.1.1.1 +ipv4.dns 1.0.0.1 connection.autoconnect yes
 nmcli connection up "enp0s3"
 ````
 
