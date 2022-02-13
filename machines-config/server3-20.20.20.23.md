@@ -4,6 +4,8 @@
 > 
 > server3.lab.example.com
 
+<br>
+
 ## Repository
 #### Config yum repositories
 
@@ -31,6 +33,9 @@ baseurl=file:///run/media/zkr/RHEL-8-3-0-BaseOS-x86_64/AppStream
 enabled=1
 gpgcheck=0
 ````
+
+<br>
+
 ## Network
 #### Network interface configuration
 
