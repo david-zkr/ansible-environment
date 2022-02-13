@@ -1,12 +1,12 @@
-# ansible-emvironment
+# ansible-environment
 
-_Acá va un párrafo que describa lo que es el proyecto_
+_Instructions and scripts to create an virtualized ansible test environment . Here you can see the architecture:_
 
 ![alt text](https://github.com/zkr-development/ansible-environment/blob/main/images/infra.png?raw=true)
 
-## Comenzando 🚀
+## Starting 🚀
 
-_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
+_First, create "workstation" VM. Use RHEL8 with GUI._
 
 Mira **Deployment** para conocer como desplegar el proyecto.
 
