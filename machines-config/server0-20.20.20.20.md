@@ -7,7 +7,6 @@
 <br>
 
 ## Repository
-
 #### Config yum repositories
 
 > EPEL repository
@@ -37,7 +36,6 @@ gpgcheck=0
 <br>
 
 ## Network
-
 #### Network interface configuration
 
 ````bash
