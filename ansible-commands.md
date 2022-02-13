@@ -1,4 +1,4 @@
-# Ansible Scripts
+# Ansible Commands
 ### Initial config (creates "ansible" users)
 <br>
 
@@ -16,3 +16,6 @@ ansible all -m command -a "grep ansible /etc/passwd" --user=root --ask-pass
 ````bash
 ansible all -m authorized_key -a "user=ansible key=\"{{ lookup('file', '/home/ansible/.ssh/id_rsa.pub') }}\" state=present" --user=root --ask-pass
 ````
+
+
+### Most common commands
