@@ -117,11 +117,14 @@ yum update
 yum install httpd
 ````
 
-> Mount RHEL ISO in /var/www/html/rhelrepo
+> Add this to /var/fstab/ to automount RHEL ISO in /var/www/html
 
 ````bash
-umount /run/media/zkr/RHEL-8-3-0-BaseOS-x86_64
+**/var/fstab/**
 
-mount /dev/sr0 /var/www/html/rhelrepo
+### RHEL8 disk mounted as repo to serve it with apache
+
+/dev/sr0 /var/www/html/ iso9660 defaults,nofail 0 0
+
 ````
 
