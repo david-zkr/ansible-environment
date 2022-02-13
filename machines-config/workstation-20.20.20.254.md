@@ -4,6 +4,8 @@
 > 
 > workstation.lab.example.com
 
+<br>
+
 ## Repository
 
 #### Config yum repositories
@@ -36,6 +38,8 @@ enabled=1
 gpgcheck=0
 ````
 
+<br>
+
 ## Install Vbox Guest Additions
 ````bash
 sudo yum groupinstall "Development Tools"
@@ -44,6 +48,8 @@ sudo yum install kernel-devel elfutils-libelf-devel
 ````
 
 > Then mount and execute Vbox GA disk
+
+<br>
 
 ## Network
 
@@ -107,6 +113,8 @@ ip a
 sudo firewall-cmd --add-service=http --permanent && sudo firewall-cmd --reload
 ````
 
+<br>
+
 ## Apache
 
 > Install httpd service
@@ -128,3 +136,11 @@ yum install httpd
 
 ````
 
+<br>
+
+## Ansible
+
+> Install ansible
+````bash
+yum install ansible
+````
