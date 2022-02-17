@@ -65,10 +65,5 @@ _Follow this guides to configure each server. I am working to make it as a scrip
 * [Ansible](https://docs.ansible.com/) - Orchestation
 
 
-## Authors ✒️
-
-* **Walter Castro** - *Concept* - [waltercastro90](https://github.com/waltercastro90)
-* **David Bernet** - *Documentation* - [david-zkr](https://github.com/david-zkr)
-
 ---
 
