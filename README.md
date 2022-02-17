@@ -31,6 +31,8 @@ _Create "server0" VM and clone it until you have server{0,1,2,3,4}. This servers
   <img src="https://github.com/zkr-development/ansible-environment/blob/main/images/vbox-allmachines.png?raw=true">
 </p>
 
+_Follow this guides to configure each server. I am working to make it as a script :)._
+
 <ul>
   <li>
     <a href="https://github.com/zkr-development/ansible-environment/blob/main/machines-config/workstation-20.20.20.254.md">Workstation guide</a>
