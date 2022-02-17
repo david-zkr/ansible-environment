@@ -21,7 +21,7 @@ enabled=1
 gpgcheck=0
 ````
 
-> RHEL ISO as repository, we are going to share it with apache to all machines in the environment
+> RHEL ISO as repository (first you have to mount it). We are going to share it with apache to all machines in the environment
 ````bash
 **/etc/yum.repos.d/RHELdisc.repo**
 
@@ -134,6 +134,24 @@ yum install httpd
 
 /dev/sr0 /var/www/html/ iso9660 defaults,nofail 0 0
 
+````
+
+> You changed the mount route of the ISO, so you will have to configure again the repo in local
+> 
+````bash
+**/etc/yum.repos.d/RHELdisc.repo**
+
+[rhel83-BaseOS]
+name=RHRL 8.3 Local server repository BaseOS
+baseurl=file:///var/www/html/BaseOS
+enabled=1
+gpgcheck=0
+
+[rhel83-AppStream]
+name=RHEL 8.3 Local server repository AppStream
+baseurl=file:///var/www/html/AppStream
+enabled=1
+gpgcheck=0
 ````
 
 <br>
