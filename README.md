@@ -3,11 +3,23 @@
 _Instructions and scripts to create an virtualized ansible test environment . Here you can see the architecture:_
 
 ![alt text](https://github.com/zkr-development/ansible-environment/blob/main/images/infra.png?raw=true)
+<p align="center">
+  <img src="https://github.com/zkr-development/ansible-environment/blob/main/images/infra.png?raw=true">
+</p>
 
 ## Starting 🚀
 ### Pre-requirements 📋
 
-_You will need a virtualization program (VirtualBox, VMWare, ...) and at least 8GB RAM._
+_You will need:_
+````
+A virtualization program (VirtualBox, VMWare, ...).
+````
+````
+An RHEL8 ISO. You can download it from Red Hat official website.
+````
+````
+At least 8GB RAM in your computer.
+````
 
 ### Installation 🔧
 
