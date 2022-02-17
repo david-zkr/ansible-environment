@@ -6,6 +6,15 @@ _Here you can see the architecture:_
 <p align="center">
   <img src="https://github.com/zkr-development/ansible-environment/blob/main/images/infra.png?raw=true">
 </p>
+<br>
+
+## Built in 🛠️
+
+* [VirtualBox](https://www.virtualbox.org/) - Virtualization
+* [Red Hat Enterprise Edition 8](https://developers.redhat.com/rhel8) - Operating System
+* [Ansible](https://docs.ansible.com/) - Orchestation
+
+<br>
 
 ## Starting 🚀
 ### Pre-requirements 📋
@@ -59,11 +68,6 @@ _Follow this guides to configure each server. I am working to make it as a scrip
 ## Post-Installation 💻
 
 
-## Built in 🛠️
-
-* [VirtualBox](https://www.virtualbox.org/) - Virtualization
-* [Red Hat Enterprise Edition 8](https://developers.redhat.com/rhel8) - Operating System
-* [Ansible](https://docs.ansible.com/) - Orchestation
 
 
 ---
