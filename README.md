@@ -5,21 +5,15 @@ _Instructions and scripts to create an virtualized ansible test environment . He
 ![alt text](https://github.com/zkr-development/ansible-environment/blob/main/images/infra.png?raw=true)
 
 ## Starting 🚀
-
-_Create "workstation" VM. Use RHEL8 with GUI._
-
-_Create "server0" VM and clone it until you have server{0,1,2,3,4} ._
-
-
 ### Pre-requirements 📋
 
 _You will need a virtualization program (VirtualBox, VMWare, ...) and at least 8GB RAM._
 
 ### Installation 🔧
 
-_Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
+_Create "workstation" VM. Use RHEL8 with GUI._
 
-_Dí cómo será ese paso_
+_Create "server0" VM and clone it until you have server{0,1,2,3,4} ._
 
 ```
 Da un ejemplo
