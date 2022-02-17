@@ -39,16 +39,16 @@ _Create "server0" VM and clone it until you have server{0,1,2,3,4}. This servers
     <a href="https://github.com/zkr-development/ansible-environment/blob/main/machines-config/server0-20.20.20.20.md">Server0 guide</a><br>
   </li>
   <li>
-    <a href="https://github.com/zkr-development/ansible-environment/blob/main/machines-config/server0-20.20.20.21.md">Server1 guide</a><br>
+    <a href="https://github.com/zkr-development/ansible-environment/blob/main/machines-config/server1-20.20.20.21.md">Server1 guide</a><br>
   </li>
   <li>
-    <a href="https://github.com/zkr-development/ansible-environment/blob/main/machines-config/server0-20.20.20.22.md">Server2 guide</a><br>
+    <a href="https://github.com/zkr-development/ansible-environment/blob/main/machines-config/server2-20.20.20.22.md">Server2 guide</a><br>
   </li>
   <li>
-    <a href="https://github.com/zkr-development/ansible-environment/blob/main/machines-config/server0-20.20.20.23.md">Server3 guide</a><br>
+    <a href="https://github.com/zkr-development/ansible-environment/blob/main/machines-config/server3-20.20.20.23.md">Server3 guide</a><br>
   </li>
   <li>
-    <a href="https://github.com/zkr-development/ansible-environment/blob/main/machines-config/server0-20.20.20.24.md">Server4 guide</a><br>
+    <a href="https://github.com/zkr-development/ansible-environment/blob/main/machines-config/server4-20.20.20.24.md">Server4 guide</a><br>
   </li>
 </ul>
 
