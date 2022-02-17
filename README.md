@@ -1,8 +1,8 @@
 # ansible-environment
 
-_Instructions and scripts to create an virtualized ansible test environment . Here you can see the architecture:_
+_Instructions and scripts to create an virtualized ansible test environment._<br>
+_Here you can see the architecture:_
 
-![alt text](https://github.com/zkr-development/ansible-environment/blob/main/images/infra.png?raw=true)
 <p align="center">
   <img src="https://github.com/zkr-development/ansible-environment/blob/main/images/infra.png?raw=true">
 </p>
@@ -23,21 +23,37 @@ At least 8GB RAM in your computer.
 
 ### Installation 🔧
 
-_Create "workstation" VM. Use RHEL8 with GUI._
+_Create "workstation" VM. Use RHEL8 with GUI. 2GB RAM are enough._
 
-_Create "server0" VM and clone it until you have server{0,1,2,3,4} ._
+_Create "server0" VM and clone it until you have server{0,1,2,3,4}. This servers don't need to have GUI, so 1GB RAM is enough._
 
-```
-Da un ejemplo
-```
+<p align="center">
+  <img src="https://github.com/zkr-development/ansible-environment/blob/main/images/vbox-allmachines.png?raw=true">
+</p>
 
-_Y repite_
+<ul>
+  <li>
+    <a href="https://github.com/zkr-development/ansible-environment/blob/main/machines-config/workstation-20.20.20.254.md">Workstation guide</a>
+  </li>
+  <li>
+    <a href="https://github.com/zkr-development/ansible-environment/blob/main/machines-config/server0-20.20.20.20.md">Server0 guide</a><br>
+  </li>
+  <li>
+    <a href="https://github.com/zkr-development/ansible-environment/blob/main/machines-config/server0-20.20.20.21.md">Server1 guide</a><br>
+  </li>
+  <li>
+    <a href="https://github.com/zkr-development/ansible-environment/blob/main/machines-config/server0-20.20.20.22.md">Server2 guide</a><br>
+  </li>
+  <li>
+    <a href="https://github.com/zkr-development/ansible-environment/blob/main/machines-config/server0-20.20.20.23.md">Server3 guide</a><br>
+  </li>
+  <li>
+    <a href="https://github.com/zkr-development/ansible-environment/blob/main/machines-config/server0-20.20.20.24.md">Server4 guide</a><br>
+  </li>
+</ul>
 
-```
-hasta finalizar
-```
 
-_Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
+
 
 
 ## Built in 🛠️
