@@ -3,7 +3,8 @@
 > 20.20.20.254
 > 
 > workstation.lab.example.com
-
+<br>
+<a href="https://github.com/zkr-development/ansible-environment#installation-">Back to the home of the project</a>
 <br>
 
 ## Repository
